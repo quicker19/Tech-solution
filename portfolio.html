@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - TechSolutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Additional CSS to ensure scrollability */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure full height of viewport */
+            margin: 0;
+        }
+
+        main {
+            flex: 1; /* Grow to fill available space */
+            padding: 20px; /* Adjust padding as needed */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Portfolio</h1>
+        <section class="portfolio-item">
+            <img src="images/project1.jpg" alt="Project 1" class="portfolio-image">
+            <div class="portfolio-description">
+                <h2>Project 1: Innovative Mobile App</h2>
+                <p>We developed an innovative mobile app that helps users track their fitness goals and monitor their progress. The app features real-time data synchronization, customizable workout plans, and social sharing capabilities.</p>
+            </div>
+        </section>
+        <section class="portfolio-item">
+            <img src="images/project2.jpg" alt="Project 2" class="portfolio-image">
+            <div class="portfolio-description">
+                <h2>Project 2: E-commerce Website</h2>
+                <p>Our team designed and developed a robust e-commerce platform for a leading retail company. The website offers a seamless shopping experience, secure payment options, and efficient order management.</p>
+            </div>
+        </section>
+        <section class="portfolio-item">
+            <img src="images/project3.jpg" alt="Project 3" class="portfolio-image">
+            <div class="portfolio-description">
+                <h2>Project 3: Custom CRM System</h2>
+                <p>We created a custom CRM system tailored to the needs of a growing business. The system streamlines customer interactions, automates sales processes, and provides detailed analytics for improved decision-making.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechSolutions</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
